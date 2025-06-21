@@ -1,0 +1,54 @@
+main {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.player-wrapper {
+  text-align: center;
+  background-color: var(--background-card-color);
+  border-radius: 1rem;
+  padding: 5.1rem 3.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+.player-wrapper .info-wrapper {
+  text-align: left;
+}
+
+.player-wrapper .info-wrapper .music-title {
+  font-size: var(--primary-font-size);
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.player-wrapper .info-wrapper .band-name {
+  font-size: var(--secondary-font-size);
+  color: var(--text-color);
+  font-weight: 300;
+  opacity: 67%;
+}
+
+.player-wrapper .controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-wrapper .minutes-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.player-wrapper .minutes-wrapper > p {
+  font-size: 1.4rem;
+  color: #c4c4cc;
+  opacity: 70%;
+}
