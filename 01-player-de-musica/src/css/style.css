@@ -5,6 +5,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 3.2rem;
 }
 
 .player-wrapper {
@@ -17,8 +18,26 @@ main {
   gap: 2.8rem;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.player-wrapper.medium {
+  padding: 2.8rem;
+  flex-direction: column;
+}
+
 .player-wrapper .info-wrapper {
   text-align: left;
+}
+
+.player-wrapper.medium .info-wrapper {
+  display: flex;
+  gap: 2.8rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .player-wrapper .info-wrapper .music-title {
@@ -39,6 +58,10 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.player-wrapper.medium .controls {
+  justify-content: space-around;
 }
 
 .player-wrapper .minutes-wrapper {
