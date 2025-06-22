@@ -44,6 +44,16 @@ As tecnologias podem variar entre os desafios, mas aqui estão as mais utilizada
 
 ## 📁 Estrutura de Pastas
 
+```plaintext
+rocketseat-boracodar/
+├── 01-desafio/
+│ └── README.md
+├── 02-desafio/
+│ └── README.md
+├── ...
+└── 40-desafio/
+```
+
 Cada pasta contém:
 
 - Implementação completa do desafio
