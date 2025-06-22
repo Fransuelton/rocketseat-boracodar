@@ -1,0 +1,67 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .product-wrapper {
+  display: flex;
+  gap: 1.3rem;
+  flex-wrap: wrap;
+}
+
+.container .product-wrapper .product-image {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.container .product-wrapper .product-image .btn-view {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  height: 2.2rem;
+  border: none;
+  position: absolute;
+  left: 36.9rem;
+}
+
+.container .product-wrapper .info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  color: var(--text-color);
+}
+
+.container .product-wrapper .info-wrapper .code {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.container .product-wrapper .info-wrapper .name {
+  font-size: 3.2rem;
+
+  font-family: "Crimson Pro", serif;
+  font-weight: 600;
+}
+
+.container .product-wrapper .info-wrapper .price {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  opacity: 67%;
+}
+
+.container .product-wrapper .info-wrapper button {
+  margin-top: 0.8rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  background: transparent;
+  border-radius: 99rem;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
